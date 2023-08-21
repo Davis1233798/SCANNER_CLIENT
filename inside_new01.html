@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>中華民國數位發展部</title>
+    <meta name="keywords" content="中華民國數位發展部,數位發展部,發展部">
+    <meta name="description" content="中華民國數位發展部">
+    <link rel="icon" href="images/ROC_Water_Resources_Agency_Seal.svg" type="image/ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <!--icon font設定-->
+    <link href="css/all.css" rel="stylesheet">
+    <!--load all styles -->
+    <link href="css/layout.css" rel="stylesheet">
+    <!--自訂CSS-->
+    <link href="css/rwd.css" rel="stylesheet">
+    <link href="css/sweetalert2.min.css" rel="stylesheet">
+    <!--自訂RWD設定-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<header id="Header_front">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
+        <a class="navbar-brand" href="#" title="回首頁"><img src="https://law.moj.gov.tw/images/logo.png" alt="數位發展logo"></a>
+    </nav>
+</header>
+
+<body>
+    <div id="WRAPPER" class="container-fluid">
+        <!-- 內容開始 -->
+        <div class="main-left menu_bg_B">
+            <div class="menu-control btn-color13">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </div>
+            <div class="card" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="heading1">
+                        <h4 class="card-title">
+                            <a class="chosen" role="button" href="inside_new01.html">
+                                新增模擬題庫
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="collapse" role="tabpanel" aria-labelledby="heading1" data-parent="#accordion">
+                        <div class="card-body">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="heading3">
+                        <h4 class="card-title">
+                            <a class="collapsed" role="button" href="inside_new02.html">
+                                編輯模擬題庫
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3" data-parent="#accordion"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="heading4">
+                        <h4 class="card-title">
+                            <a class="collapsed" role="button" href="inside_new03.html">
+                                鎖定/解除鎖定
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4" data-parent="#accordion"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="heading5">
+                        <h4 class="card-title">
+                            <a class="collapsed" role="button" href="inside_new04.html">
+                                模擬題編冊
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5" data-parent="#accordion"></div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="heading6">
+                        <h4 class="card-title">
+                            <a class="collapsed" role="button" href="inside_new05.html">
+                                模擬題輸出
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6" data-parent="#accordion"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="row mb-3">
+                <div class="col-12 col-sm-6 col-md-8">
+                    
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="name">歡迎！ &nbsp;管理者
+                    </div>
+                </div>
+            </div>
+            <div class="card whiteBG mb-4 pattern-F colorset_B">
+                <div class="card-header">
+                    <h3 class="card-title font-weight-bold">新增模擬題庫</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive" style="overflow-x: unset;">
+                        <table class="table table-responsive-md table-hover table2 VA-middle">
+                            <h5>選擇繕打單位</h5>
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            <tr>
+                                                <td><font size="4">年度</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>111</option>
+                                                        <option>110</option>
+                                                        <option>109</option>
+                                                        <option>108</option>
+                                                        <option>107</option>
+                                                        <option>106</option>
+                                                        <option>105</option>
+                                                        <option>104</option>
+                                                        <option>103</option>
+                                                        <option>102</option>
+                                                    </select>
+                                                </td>
+                                                <td><font size="4">屆</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                        <option>6</option>
+                                                        <option>7</option>
+                                                        <option>8</option>
+                                                        <option>9</option>
+                                                    </select>
+                                                </td>
+                                                <td><font size="4">會期</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                        <option>6</option>
+                                                        <option>7</option>
+                                                        <option>8</option>
+                                                        <option>9</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><font size="4">負責單位</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>A公司</option>
+                                                        <option>B公司</option>
+                                                    </select>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td><font size="4">姓名</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>user1</option>
+                                                        <option>user2</option>
+                                                        <option>user3</option>
+                                                        <option>user4</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><font size="4">電話</font></span></td>
+                                                <td>09-12345678</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><font size="4">繕打單位</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>A公司</option>
+                                                        <option>B公司</option>
+                                                    </select>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td><font size="4">姓名</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>user1</option>
+                                                        <option>user2</option>
+                                                        <option>user3</option>
+                                                        <option>user4</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><font size="4">電話</font></span></td>
+                                                <td>09-12345678</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td><font size="4">題庫類型</font></span></td>
+                                                <td>
+                                                    <select class="form-control">
+                                                        <option>請選擇</option>
+                                                        <option>A版</option>
+                                                        <option>B版</option>
+                                                    </select>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>    
+                                    </table>
+                                </div> 
+                            </table>  
+                                <div class="container">
+                                    <div class="row">
+                                      <div class="col">
+                                        
+                                     </div>
+                                      <div class="col">
+                                        
+                                      </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="card whiteBG mb-4 pattern-F colorset_3">
+                            <div class="card-body">
+                                <div class="table-responsive" style="overflow-x: unset;">
+                                    <table class="table table-responsive-md table-hover table2 VA-middle">
+                                        <h5>輸入題庫標題</h5><br>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h4>標題：</h4>
+                                                </div>
+                                                <div class="col-8">
+                                                    <input type="text" style="width:100% ;" id="prise" value="農村再生">
+                                                </div>
+                                                <div class="col">
+                                                    <button role="button" class="btn btn-shadow btn-block btn-color11-o" style="background-color:#97dded" onclick="$('#prise').prop('disabled',true)"> 儲存<i class="fas fa-save"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card whiteBG mb-4 pattern-F colorset_3">
+                            <div class="card-body">
+                                <div class="table-responsive" style="overflow-x: unset;">
+                                    <table class="table table-responsive-md table-hover table2 VA-middle"> 
+                                        <h5>輸入題庫內容</h5>
+                                        <div class="table-responsive">
+                                            <table class="table table-hover" id="addnew" table-layout: fixed;>
+                                                <colgroup>
+                                                    <col width="10%">
+                                                    <col width="60%">
+                                                    <col width="10%">
+                                                    <col width="10%">
+                                                    <col width="10%">
+                                                </colgroup>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>項次</th>
+                                                        <th>內容</th>
+                                                        <th>動態排序</th>
+                                                        <th>功能</th>
+                                                        <th>功能</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>例</td>
+                                                        <td>
+                                                            推動農村再生，找回人與土地的新倫理，重尋農村自信與尊榮；落實水土保持國民教育，由下而上達健康、效率、永續經營。
+                                                        </td>
+                                                        <td>
+                                                            <a href="javascript:void(0)"><i class="fas fa-arrow-circle-up"></i></a>&nbsp;
+                                                            <a href="javascript:void(0)"><i class="fas fa-arrow-circle-down"></i></a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" role="button" class="btn btn-shadow btn-color11-d btn-block" onclick="deleteadd(this)" style="background-color:#f97676">
+                                                                刪除<i class="fas fa-trash-alt"></i>
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <button role="button" class="btn btn-shadow btn-block btn-color11-o" style="background-color:#97dded"> 儲存<i class="fas fa-save"></i></button>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <select class="form-control">
+                                                            <option>請選擇</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            </select>
+                                                        </td>
+                                                        <td><input type="text" style="width: 100%;" id="sup"></td>
+                                                        <td>
+                                                            <a href="javascript:void(0)"><i class="fas fa-arrow-circle-up"></i></a>&nbsp;
+                                                            <a href="javascript:void(0)"><i class="fas fa-arrow-circle-down"></i></a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" role="button" class="btn btn-shadow btn-color11-d btn-block" onclick="deleteadd(this)" style="background-color:#f97676">
+                                                                刪除<i class="fas fa-trash-alt"></i>
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <button role="button" class="btn btn-shadow btn-block btn-color11-o" style="background-color:#97dded" onclick="$('#sup').prop('disabled',true)"> 儲存<i class="fas fa-save"></i></button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    <table>
+                                        <div class="container">
+                                            <div class="row">
+                                              <div class="col">
+                                                
+                                              </div>
+                                              <div class="col">
+                                                <a href="javascript:void(0)" role="button" class="btn btn-shadow btn-color11-3 btn-block" onclick="addnew()">
+                                                    新增<i class="fas fa-plus"></i>
+                                                </a>
+                                              </div>
+                                              <div class="col">
+                                                
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </table>  
+                                        <div class="container">
+                                            <div class="row">
+                                              <div class="col">
+                                                
+                                             </div>
+                                              <div class="col">
+                                                
+                                              </div>
+                                            </div>
+                                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive" style="overflow: auto;">
+                                <table class="table table-hover" table-layout: fixed;>
+                                    <!-- <colgroup>
+                                        <col width="10%">
+                                        <col width="30%">
+                                        <col width="10%">
+                                        <col width="30%">
+                                        <col width="10%">
+                                        <col width="10%">
+                                    </colgroup> -->
+                                    <h5>上傳附件</h5>
+                                        <tr>
+                                            <th style="background-color: #00b1cc;" colspan="5"><span style="color: rgb(255, 255, 255);"><font size="4">附件上傳</font></span></th>
+                                        </tr>
+                                        <tr>
+                                            <td ><font size="4">描述</font></span></td>
+                                            <td><input type="text" style="width: 70%;"></td>
+                                            <td ><font size="4">檔案</font></span></td>
+                                            <td>
+                                                <input class="col-6" type="text" value="test.docx">
+                                                <button  type="button" class="btn btn-shadow btn-block col-6" style="background-color:#03c6e8;display: inline-block;width: auto;" onclick="upload()">瀏覽...  &nbsp;<i class="fas fa-eye"></i></button>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-shadow btn-block" style="background-color:#04b9c3">上傳<i class="fas fa-upload"></i></button>
+                                            </td>
+                                        </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row justify-content-md-center">
+                                <div class="col-md-auto">
+                                    <button type="button" class="btn btn-shadow btn-block " style="background-color:#03c6e8" onclick="finish()">填寫完畢  &nbsp;<i class="fas fa-check-double"></i></button>
+                                </div>
+                            </div>
+                        </div>                                                                       
+                        <div class="form-check col-4">
+                            <div>
+                          </div>
+                        <div class="form-check col-4">
+                            <div class="form-check col-4">
+                              </div>
+                            </div>
+                            </div>
+                        </div>      
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="inside_footer footer-B" id="Footer_front">
+        <div class="container text-right">
+            中華民國數位發展部 Copyright © 2022 All Rights Reserved
+        </div>
+        <div id="gotop" class="btn-color1" title="回到最上方"><img src="images/icon-up.png" alt="回到最上方icon"></div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+    <script>
+    // 檔案上傳，顯示檔案名稱
+    $(".custom-file-input").on("change", function() {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+    </script>
+</body>
+
+</html>
